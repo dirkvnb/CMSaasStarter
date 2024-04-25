@@ -4,20 +4,22 @@
 
 <div class="navbar bg-base-100 container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">SaaS Starter</a>
+    <a class="btn btn-ghost normal-case text-xl" href="/">GrandAuth</a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
-      <li class="md:mx-4">
+      <!-- <li class="md:mx-4">
         <a
           href="https://github.com/CriticalMoments/CMSaasStarter"
           class="border border-primary">★ us on Github</a
         >
-      </li>
-      <li class="md:mx-2"><a href="/blog">Blog</a></li>
+      </li> -->
+      <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li> -->
+      <!-- <li class="md:mx-2"><a href="/account">Account</a></li> -->
       <li class="md:mx-2"><a href="/pricing">Pricing</a></li>
-      <li class="md:mx-2"><a href="/account">Account</a></li>
     </ul>
+
+    <!-- This is the mobile menu -->
     <div class="dropdown dropdown-end sm:hidden">
       <!-- svelte-ignore a11y-label-has-associated-control -->
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
@@ -41,15 +43,14 @@
         tabindex="0"
         class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
       >
-        <li><a href="/blog">Blog</a></li>
         <li><a href="/pricing">Pricing</a></li>
-        <li><a href="/account">Account</a></li>
-        <li>
+        <!-- <li><a href="/account">Account</a></li> -->
+        <!-- <li>
           <a
             href="https://github.com/CriticalMoments/CMSaasStarter"
             class="border border-primary">★ us on Github</a
           >
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>
@@ -61,7 +62,7 @@
 
 <!-- Spacer grows so the footer can be at bottom on short pages -->
 <div class="flex-grow"></div>
-<div class="">
+<!-- <div class="">
   <div class="border-t max-w-[1000px] mx-auto"></div>
   <footer
     class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
@@ -92,4 +93,4 @@
       </a>
     </aside>
   </footer>
-</div>
+</div> -->
